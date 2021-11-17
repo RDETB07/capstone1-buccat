@@ -1,0 +1,39 @@
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+	background-color: #212121;
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.navbarBGColor {
+	background-color: rgb(0, 0, 0);
+}
+
+.jumbotron {
+	background-color: rgb(0, 0, 0, 0.9);
+}
+
+.navbar {
+	height: 10vh;
+	z-index: 1;
+}
+
+.nav-item {
+	font-size: 2rem;
+}
+
+.profile-picture {
+	z-index: 999;
+}
+
+.greater-than {
+	color: rgb(223, 71, 89);
+}
