@@ -2,6 +2,10 @@
 	font-family: "Open Sans", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -9,8 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	background-color: #212121;
 	background-image: url("../images/bg.jpg");
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .navbarBGColor {
