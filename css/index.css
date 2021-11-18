@@ -46,7 +46,7 @@ body {
 	background-color: rgb(0, 0, 0, 0.9);
 }
 
-.jumbotron {
+.jumbotron, #modal-gallery-content {
 	background-color: rgb(0, 0, 0, 0.9);
 }
 
