@@ -65,7 +65,7 @@
 	<!-- == container 1 == -->
 	<div class="container p-5 mt-5" id="home-page">
 		<!-- == banner == -->
-		<div class="row jumbotron  text-white" id="banner">
+		<div class="row jumbotron jumbotron-bg text-white" id="banner">
 
 			<div class="col-10 col-md-5 mx-auto">
 				<h1 class="border-bottom border-danger d-none d-md-block">About Me</h1>
@@ -98,10 +98,10 @@
 				</div>
 
 				<h3 class="text-center  mt-5">Hello, I'm Rae Dan</h3>
-				<p class="text-center my-2">
+				<p class="text-center my-2 h4">
 					I am a Bachelor of Information Technology graduate from Far Eastern University Makati. 
 				</p>
-				<p class="text-center mt-2">
+				<p class="text-left mt-4 h4">
 					I am aiming to become profecient in web developing. I have worked on projects using HTML, CSS, Javascript, PHP and bootstrap. I am interested in web developing because coding is something that I enjoy doing since I was child. I am always looking for new opportunities to improve my programming and web development skills.
 				</p>
 
@@ -112,6 +112,8 @@
 
 	</div>
 	<!-- =x= end container 1 =x= -->
+
+<div class="bg-container">
 
 	<!-- == container 2 == -->
 	<div class="container-fluid my-5" id="projects-page" data-aos="fade-up">
@@ -249,7 +251,7 @@
 						<img class="card-img-top" src="./images/tools/logo-bootstrap.png">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">Bootstrap is a free and open source front end development framework for the creation of websites and web apps</p>
+						<p class="card-text text-white h3">Bootstrap is a free and open source front end development framework for the creation of websites and web apps</p>
 					</div>
 				</div>
 			</div>
@@ -259,7 +261,7 @@
 						<img class="card-img-top" src="./images/tools/logo-css3.png">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
+						<p class="card-text text-white h3">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.</p>
 					</div>
 				</div>
 			</div>
@@ -269,7 +271,7 @@
 						<img class="card-img-top" src="./images/tools/logo-html5.png">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">HTML5 is a markup language used for structuring and presenting content on the World Wide Web.</p>
+						<p class="card-text text-white h3">HTML5 is a markup language used for structuring and presenting content on the World Wide Web.</p>
 					</div>
 				</div>
 			</div>
@@ -279,7 +281,7 @@
 						<img class="card-img-top" src="./images/tools/logo-javascript.png" alt="Card image cap">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">JavaScript is a dynamic computer programming language.</p>
+						<p class="card-text text-white h3">JavaScript is a dynamic computer programming language.</p>
 					</div>
 				</div>
 			</div>
@@ -292,7 +294,7 @@
 						<img class="card-img-top" src="./images/tools/java.png">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">Java is an object-oriented programming language that produces software for multiple platforms.</p>
+						<p class="card-text text-white h3">Java is an object-oriented programming language that produces software for multiple platforms.</p>
 					</div>
 				</div>
 			</div>
@@ -303,17 +305,17 @@
 					</a>
 					
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">Photoshop is Adobe's photo editing, image creation and graphic design software.</p>
+						<p class="card-text text-white h3">Photoshop is Adobe's photo editing, image creation and graphic design software.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 mt-3">
 				<div class="card bg-card mx-auto">
 					<a href="https://struts.apache.org/" target="_blank">
-						<img class="card-img-top" src="./images/tools/struts.png" alt="Card image cap">
+						<img class="card-img-top struts-logo" src="./images/tools/struts.png" alt="Card image cap">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">Struts is an open source framework that extends the Java Servlet API and employs a Model, View, Controller (MVC) architecture.</p>
+						<p class="card-text text-white h3">Struts is an open source framework that extends the Java Servlet API and employs a Model, View, Controller (MVC) architecture.</p>
 					</div>
 				</div>
 			</div>
@@ -323,7 +325,7 @@
 						<img class="card-img-top" src="./images/tools/logo-gitlab-ci-cd.png" alt="Card image cap">
 					</a>
 					<div class="card-body border-bottom border-danger">
-						<p class="card-text text-white">GitLab is an open source code repository and collaborative software development platform for large DevOps and DevSecOps projects.</p>
+						<p class="card-text text-white h3">GitLab is an open source code repository and collaborative software development platform for large DevOps and DevSecOps projects.</p>
 					</div>
 				</div>
 			</div>
@@ -377,10 +379,11 @@
 	</div>
 	<!-- =x= end container 4 =x= -->
 
+</div>
 	<!-- == footer == -->
 	<footer class="bg-footer mt-5 p-1">
 
-		<div class="d-flex justify-content-center my-2">
+		<div class="d-flex justify-content-center my-5">
 			<a class="mr-5" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
 			<a href="https://www.deviantart.com/rosetania" target="_blank"><i class="fab fa-deviantart"></i></a>		
 		</div>
@@ -393,7 +396,7 @@
 	
 	<!-- == modal == -->
 	<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-full" role="document">
+		<div class="modal-dialog modal-full mx-auto" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">

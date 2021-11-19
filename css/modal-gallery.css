@@ -315,12 +315,12 @@ input:checked + .slider:before {
 }
 
 .modal-full {
-  min-width: 100%;
+  min-width: 80%;
   margin: 0;
 }
 
 .modal-full .modal-content {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 /*// --- END: style switch --- //*/
